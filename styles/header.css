@@ -64,7 +64,7 @@
 
 .menu__lista-item {
     background: var(--cor-principal);
-    color: var(--cor-3);
+    color: var(--cor-6);
     -webkit-background-clip: text;
     -webkit-text-stroke-width: transparent;
     background-clip: text;
