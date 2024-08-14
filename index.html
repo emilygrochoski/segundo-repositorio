@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-widght, initial-scale=1.0">
         <title>Pagina Principal</title>
+        <link rel="stylesheet" href="">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,21 +42,35 @@
                 </label>
 
                 <ul class="cabecalho-lista">
-                    
+                    <li class="cabecalho-lista-item">
+                       <a href="#" class="menu__lista-item"> Opção 1 </a>
+                    </li>
+                    <li class="cabecalho-lista-item">
+                       <a href="#" class="menu__lista-item"> Opção 2 </a>
+                    </li>
+                    <li class="cabecalho-lista-item">
+                       <a href="#" class="menu__lista-item"> Opção 3 </a>
+                     </li>
+                
                 </ul>
+                
+                <li class="opcoes__item"><a href="#" class="opcoes_link"> Escola </a> </li>
+                <li class="opcoes__item"><a href="#" class="opcoes_link"> Estudante </a> </li>
+                
             </ul>
-
-        
-
-            <a href="#"> <img src="img/favoritos.svg" alt=""> </a>
-            <a href="#"> <img src="img/compras.svg" alt=""> </a>
-            <a href="#"> <img src="img/usuario.svg" alt=""> </a>
-
-            <ul class="cabecalho-lista">
-                <li class="cabecalho-lista-item">Escola</li>
-                <li class="cabecalho-lista-item">Estudante</li>
-            </ul>
-
+            
+            <div class="container">
+                <a href="#"> <img class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+                <a href="#" class="container__link" > 
+                    <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
+                    <p class="container__texto"> Minha Sacola </p>
+                </a>
+                <a href="#" class="container__link" > 
+                    <img class="cabecalho-imagem" src="./img/usuario.svg" alt="Carrinho de compras">
+                    <p class="container__texto"> Meu perfil </p>
+                </a>
+            </div>
+                
         </header>
 
         <section class="escola">
@@ -64,7 +79,7 @@
                 <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através de Programação. </p>
                 <p class="escola-texto-dois"> A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super unidos e a turma favorita por todos os professores que nos ajudam!</p>
             </div>
-            <img src="img/Work time-amico.svg" alt="imagem da escola" class="escola-imagem">
+        <img src="img/Work time-amico.svg" alt="imagem da escola" class="escola-imagem">
 
         </section>
 
