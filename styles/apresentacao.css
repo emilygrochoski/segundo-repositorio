@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #ff3434;
+    background-color: #FF78A4;
     color: white;
 }
 
@@ -17,7 +17,7 @@ header {
 }
 
 .escola {
-    background-image: linear-gradient(#df108f, rgba(0, 195, 255, 0.719));
+    background-image: linear-gradient(#FD6DC5, #FFD761));
     color: white; 
     display: flex;
     justify-content: center;
