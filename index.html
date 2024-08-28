@@ -1,105 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-widght, initial-scale=1.0">
-        <title>Pagina Principal</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widght, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="styles/apresentacao.css">
-    </head>
-    
-    <body>
-        <header class="cabecalho">
-            <div class="container">
-                <input type="checkbox"  id="menu"  class="container__botao">
-                <label for="menu">
-                    <span class="cabecalho__menu  container__imagem"> </span>
-                </label>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-                <ul class="cabecalho-lista">
-                    <li class="cabecalho-lista-item"> Categorias </li>
-                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Serviços </a> </li>
-                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Projetos </a> </li>
-                    <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Contato </a> </li>
-                </ul>
 
-            
-             <img class="cabecalho-imagem  container__imagem" src="img/logoempresa.png" alt="logo empresa">
-             <h1 class="container-titulo"> Grochoski acessórios </h1>
 
-            </div> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/apresentacao.css">
+</head>
 
-            <ul class="opcoes">
-                <input type="checkbox"    id="opcoes-menu"     class="opcoes__botao">
-                <label for="opcoes-menu">   
-                    <li class="opcoes__item"> CATEGORIAS </li>
-                </label>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu  container__imagem"> </span>
+            </label>
 
-                <ul class="cabecalho-lista">
-                    <li class="cabecalho-lista-item">
-                       <a href="#" class="menu__lista-item"> Opção 1 </a>
-                    </li>
-                    <li class="cabecalho-lista-item">
-                       <a href="#" class="menu__lista-item"> Opção 2 </a>
-                    </li>
-                    <li class="cabecalho-lista-item">
-                       <a href="#" class="menu__lista-item"> Opção 3 </a>
-                     </li>
-                </ul>
-                
-                <li class="opcoes__item"><a href="#" class="opcoes_link"> Escola </a> </li>
-                <li class="opcoes__item"><a href="#" class="opcoes_link"> Estudante </a> </li>
-                
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item"> Categorias </li>
+                <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Serviços </a> </li>
+                <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Projetos </a> </li>
+                <li class="cabecalho-lista-item"> <a href="#" class="menu__lista-item"> Contato </a> </li>
             </ul>
-            
-            <div class="container">
-                <a href="#" class="container__link" > 
-                    <img class="cabecalho-imagem" src="./img/favoritos.svg" alt="Meus favoritos">
-                    <p class="container__texto"> Favoritos </p>
-                </a>
-                <a href="#" class="container__link" > 
-                    <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
-                    <p class="container__texto"> Minha Sacola </p>
-                </a>
-                <a href="#" class="container__link" > 
-                    <img class="cabecalho-imagem" src="./img/usuario.svg" alt="Perfil">
-                    <p class="container__texto"> Meu perfil </p>
-                </a>
-            </div>
-                
-        </header>
 
-        <section class="escola">
-            <div class="escola-div-conteudo">
-                <h2 class="escola-titulo"> Sobre a Escola </h2>
-                <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através de Programação. </p>
-                <p class="escola-texto-dois"> A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super unidos e a turma favorita por todos os professores que nos ajudam!</p>
-            </div>
+
+            <img class="cabecalho-imagem  container__imagem" src="img/logoempresa.png" alt="logo empresa">
+            <h1 class="container-titulo"> Grochoski acessórios </h1>
+
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item"> CATEGORIAS </li>
+            </label>
+
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item"> Opção 1 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item"> Opção 2 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item"> Opção 3 </a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes_link"> Escola </a> </li>
+            <li class="opcoes__item"><a href="#" class="opcoes_link"> Estudante </a> </li>
+
+        </ul>
+
+        <div class="container">
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/favoritos.svg" alt="Meus favoritos">
+                <p class="container__texto"> Favoritos </p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
+                <p class="container__texto"> Minha Sacola </p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="cabecalho-imagem" src="./img/usuario.svg" alt="Perfil">
+                <p class="container__texto"> Meu perfil </p>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo"> Sobre a Escola </h2>
+            <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento
+                Computacional, através de Programação. </p>
+            <p class="escola-texto-dois"> A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super
+                unidos e a turma favorita por todos os professores que nos ajudam!</p>
+        </div>
         <img src="img/Work time-amico.svg" alt="imagem da escola" class="escola-imagem">
 
-        </section>
+    </section>
 
-        <section class="estudante">
-            <div class="estudante-div">
-                <h2 class="estudante-titulo">Quem sou</h2>
-                <img src="img/emily.jpeg" alt="foto da Emily" class="estudante-imagem">
-                <h3 class="estudante-nome"> Emily Grochoski </h3>
-                <a href="https://github.com/emilygrochoski/segundo-repositorio.git"> <img src="img/github.png" alt="icone do github" class="estudante-icone"> </a>
-                <a href="https://instagram.com/emily_grochoski"> <img src="img/instagram.png" alt="icone do instagram" class="estudante-icone"> </a>
-                <a href="https://wa.me/5541996812962?text=Sou+a+Emily.+Como+posso+te+ajudar%3F"> <img src="img/whatsapp.png" alt="icone do whatsapp" class="estudante-icone"> </a>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Nossos Serviços</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"> <img src="./img/jaquetaLS2.jpeg" alt=" Jaqueta LS2"></div>
+                <div class="swiper-slide"> <img src="./img/JaquetaNorisk.jpeg" alt=" Jaqueta Norisk"></div>
+                <div class="swiper-slide"> <img src="./img/jaquetatexx.jpeg" alt=" Jaqueta Texx"></div>
+                <div class="swiper-slide"> <img src="./img/LS2Draze.jpeg" alt=" Capacete LS2 Draze"></div>
+                <div class="swiper-slide"> <img src="./img/LS2Monocolor.jpeg" alt=" Capacete LS2 Monocolor preto"></div>
+                <div class="swiper-slide"> <img src="./img/LS2Xdron.jpeg" alt=" Capacete LS2 Xdron"></div>
+                <div class="swiper-slide"> <img src="./img/luvaLS2.jpeg" alt=" Luva LS2"></div>
+                <div class="swiper-slide"> <img src="./img/luvatexx.jpeg" alt=" Luva Texx"></div>
+                <div class="swiper-slide"> <img src="./img/noriskdarth.jpeg" alt=" Capacete Norisk Darth"></div>
+                <div class="swiper-slide"> <img src="./img/noriskff302JAPAO.jpeg" alt=" Capacete Norisk Grand Prix Japan"></div>
+                ...
             </div>
-        </section>
 
-        <footer class="rodape">
-            <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
-        </footer>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
-    </body>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="estudante">
+        <div class="estudante-div">
+            <h2 class="estudante-titulo">Quem sou</h2>
+            <img src="img/emily.jpeg" alt="foto da Emily" class="estudante-imagem">
+            <h3 class="estudante-nome"> Emily Grochoski </h3>
+            <a href="https://github.com/emilygrochoski/segundo-repositorio.git"> <img src="img/github.png"
+                    alt="icone do github" class="estudante-icone"> </a>
+            <a href="https://instagram.com/emily_grochoski"> <img src="img/instagram.png" alt="icone do instagram"
+                    class="estudante-icone"> </a>
+            <a href="https://wa.me/5541996812962?text=Sou+a+Emily.+Como+posso+te+ajudar%3F"> <img src="img/whatsapp.png"
+                    alt="icone do whatsapp" class="estudante-icone"> </a>
+        </div>
+    </section>
+    <footer class="rodape">
+        <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
 
 </html>
