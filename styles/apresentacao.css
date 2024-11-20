@@ -13,7 +13,7 @@ header {
 }
 
 .loja-imagem {
-    width: 25%;
+    width: 15%;
 }
 
 .escola {
@@ -53,11 +53,11 @@ header {
 }
 
 .rodape {
-    background-color: black;
+    background-color: var(#FD6DC5);
     text-align: center;
 }
 
 .rodape-imagem {
-    height: 60px;
+    height: 20px;
     padding: 12px 0;
 }
