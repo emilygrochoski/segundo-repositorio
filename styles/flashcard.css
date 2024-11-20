@@ -1,5 +1,5 @@
 #flashcard {
-    background-color: linear-gradient(#FFD761, #FD6DC5);
+    background-image: linear-gradient(#FFD761, #FD6DC5);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
