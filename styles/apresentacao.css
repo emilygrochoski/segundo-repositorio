@@ -53,11 +53,11 @@ header {
 }
 
 .rodape {
-    background-color: var(#FD6DC5);
+    background-color: #FD6DC5;
     text-align: center;
 }
 
 .rodape-imagem {
-    height: 20px;
+    height: 30px;
     padding: 12px 0;
 }
