@@ -68,7 +68,7 @@
 
 .descricao__titulo {
     color: var(--cor-branco);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .descricao__titulo-produto {
@@ -83,12 +83,12 @@
 }
 
 .descricao__texto {
-    font-size: 8px;
+    font-size: 4px;
 }
 
 .botoes__ancora {
     background-color: var(--cor-3);
-    padding: 1em 2.2em;
+    padding: 1em 1.1em;
     color: var(--cor-5);
     font-weight: 700;
     text-decoration: none;
