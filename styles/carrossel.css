@@ -92,7 +92,6 @@
     color: var(--cor-5);
     font-weight: 700;
     text-decoration: none;
-    object-fit: cover;
 }
 
 .botoes__item {
