@@ -79,7 +79,7 @@
 }
 
 .descricao__imagem {
-    width: 200px;
+    width: 400px;
 }
 
 .descricao__texto {
@@ -92,6 +92,7 @@
     color: var(--cor-5);
     font-weight: 700;
     text-decoration: none;
+    object-fit: cover;
 }
 
 .botoes__item {
