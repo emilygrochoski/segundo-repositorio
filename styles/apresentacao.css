@@ -30,11 +30,11 @@ header {
 }
 
 .escola-titulo {
-    padding: 24px 0;
+    padding: 20px 0;
 }
 
 .estudante-imagem {
-    width: 30%;
+    width: 20%;
 }
 
 .estudante-icone {
@@ -49,7 +49,7 @@ header {
 
 .estudante-titulo {
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .rodape {
