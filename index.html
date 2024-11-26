@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Slab:wght@100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles/apresentacao.css">
+    <!-- link rel="stylesheet" href="styles/apresentacao.css"-->
 </head>
 
 <body>
@@ -70,7 +69,6 @@
         <div class="container" id="container_left">
             <a href="#"> 
                 <img id="favorito-header" class="cabecalho-imagem cabecalho__favorito header__favorito"" src="./img/favoritos.svg" alt="Meus favoritos"> 
-                <p class="container__texto"> Favoritos </p>
             </a>
             <a href="#" class="container__link">
                 <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
@@ -84,61 +82,63 @@
 
     </header>
 
-    <section class="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo"> Sobre a Loja </h2>
-            <p class="escola-texto-um"> A loja Grochoski acessórios foi fundada em 2024 e tem como objetivo oferecer produtos verificados e com qualidade. </p>
-            <p class="escola-texto-dois"> A nossa loja preza em oferecer acessórios para motociclistas com qualidade e segurança por um preço justo!</p>
-        </div>
+    <main>
+        <section class="escola">
+            <div class="escola-div-conteudo">
+                <h2 class="escola-titulo"> Sobre a Loja </h2>
+                <p class="escola-texto-um"> A loja Grochoski acessórios foi fundada em 2024 e tem como objetivo oferecer produtos verificados e com qualidade. </p>
+                <p class="escola-texto-dois"> A nossa loja preza em oferecer acessórios para motociclistas com qualidade e segurança por um preço justo!</p>
+            </div>
         <img src="./img/expositorloja.png" alt="imagem da escola" class="loja-imagem">
 
-    </section>
+        </section>
 
-    <section id="flashcard" >
+        <section id="flashcard" >
+            <!--
 
-        <!--
-        <article class="cartao">
+            <article class="cartao">
 
-            <div class="cartao__conteudo">
-                <h3>Missão</h3>
+                <div class="cartao__conteudo">
+                    <h3>Missão</h3>
                 
-                <div class="cartao__conteudo__pergunta">
-                    <p>Saiba qual é a missão de nossa empresa!</p>
-                </div>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba qual é a missão de nossa empresa!</p>
+                    </div>
                 
-                <div class="cartao__conteudo__resposta">
-                    <p>Nossa missão é oferecer equipamentos seguros e verificados corretamente.</p>
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossa missão é oferecer equipamentos seguros e verificados corretamente.</p>
+                    </div>
                 </div>
-            </div>
             
-        </article>
+            </article>
         
-        <article>
-            <div class="cartao__conteudo">
-                <h3>Visão</h3>
+            <article>
+
+                <div class="cartao__conteudo">
+                    <h3>Visão</h3>
                 
-                <div class="cartao__conteudo__pergunta">
-                    <p>Saiba qual é a visão de nossa empresa!</p>
-                </div>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba qual é a visão de nossa empresa!</p>
+                    </div>
                 
-                <div class="cartao__conteudo__resposta">
-                    <p>Nossa visão é crescer financeiramente, até conseguir criar mais unidades de loja em diferentes localizações.</p>
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossa visão é crescer financeiramente, até conseguir criar mais unidades de loja em diferentes localizações.</p>
+                    </div>
                 </div>
-            </div>
             
-        </article>
+            </article>
         
-        <article>
+            <article>
             
-            <div class="cartao__conteudo">
-                <h3>Valores</h3>
+                <div class="cartao__conteudo">
+                    <h3>Valores</h3>
                 
-                <div class="cartao__conteudo__pergunta">
-                    <p>Saiba quais são os valores de nossa empresa!</p>
-                </div>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>Saiba quais são os valores de nossa empresa!</p>
+                    </div>
                 
-                <div class="cartao__conteudo__resposta">
-                    <p>Nossos valores são solidariedade, transparência, equidade,
+                    <div class="cartao__conteudo__resposta">
+                        <p>Nossos valores são solidariedade, transparência, equidade,
                         excelência, inovação.</p>
                     </div>
                 </div>
@@ -147,53 +147,52 @@
             
             -->
         
-    </section>
+        </section>
 
-    <section class="carrossel">
+        <section class="carrossel">
 
-        <h2 class="carrossel__titulo">Nossos Serviços</h2>
+            <h2 class="carrossel__titulo">Nossos Serviços</h2>
 
-        <div class="carrossel__container">
-
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"> <img src="./img/jaquetaLS2.jpeg" alt=" Jaqueta LS2"></div>
-                    <div class="swiper-slide"> <img src="./img/JaquetaNorisk.jpeg" alt=" Jaqueta Norisk"></div>
-                    <div class="swiper-slide"> <img src="./img/jaquetatexx.jpeg" alt=" Jaqueta Texx"></div>
-                    <div class="swiper-slide"> <img src="./img/LS2Draze.jpeg" alt=" Capacete LS2 Draze"></div>
-                    <div class="swiper-slide"> <img src="./img/LS2Monocolor.jpeg" alt=" Capacete LS2 Monocolor preto"></div>
-                    <div class="swiper-slide"> <img src="./img/LS2Xdron.jpeg" alt=" Capacete LS2 Xdron"></div>
-                    <div class="swiper-slide"> <img src="./img/luvaLS2.jpeg" alt=" Luva LS2"></div>
-                    <div class="swiper-slide"> <img src="./img/luvatexx.jpeg" alt=" Luva Texx"></div>
-                    <div class="swiper-slide"> <img src="./img/noriskdarth.jpeg" alt=" Capacete Norisk Darth"></div>
-                    <div class="swiper-slide"> <img src="./img/noriskff302JAPAO.jpeg" alt=" Capacete Norisk Grand Prix Japan"></div>
+            <div class="carrossel__container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"> <img src="./img/jaquetaLS2.jpeg" alt=" Jaqueta LS2"></div>
+                        <div class="swiper-slide"> <img src="./img/JaquetaNorisk.jpeg" alt=" Jaqueta Norisk"></div>
+                        <div class="swiper-slide"> <img src="./img/jaquetatexx.jpeg" alt=" Jaqueta Texx"></div>
+                        <div class="swiper-slide"> <img src="./img/LS2Draze.jpeg" alt=" Capacete LS2 Draze"></div>
+                        <div class="swiper-slide"> <img src="./img/LS2Monocolor.jpeg" alt=" Capacete LS2 Monocolor preto"></div>
+                        <div class="swiper-slide"> <img src="./img/LS2Xdron.jpeg" alt=" Capacete LS2 Xdron"></div>
+                        <div class="swiper-slide"> <img src="./img/luvaLS2.jpeg" alt=" Luva LS2"></div>
+                        <div class="swiper-slide"> <img src="./img/luvatexx.jpeg" alt=" Luva Texx"></div>
+                        <div class="swiper-slide"> <img src="./img/noriskdarth.jpeg" alt=" Capacete Norisk Darth"></div>
+                        <div class="swiper-slide"> <img src="./img/noriskff302JAPAO.jpeg" alt=" Capacete Norisk Grand Prix Japan"></div>
                     
-                </div>
+                    </div>
 
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-pagination"></div>
 
-            </div>
+                </div>
 
-            <!-- Promoção - Melhor Produto -->
-            <div class="card">
+                <!-- Promoção - Melhor Produto -->
+                <div class="card">
 
-                <div class="card__descricao">
-
-                    <div class="descricao">
-                        <h3 class="descricao__titulo"> Talvez você também se interesse 
-                        por ... </h3>
-                        <h2 class="descricao__titulo-produto">Combo Casal</h2>
-                        <h1 class="descricao__texto"> Promoção por tempo indeterminado ou até esgotar o estoque! Válida somente para dois capacetes de modelos iguais, podendo somente escolher cores diferentes. </h1>
+                    <div class="card__descricao">
+                    
+                        <div class="descricao">
+                            <h3 class="descricao__titulo"> Talvez você também se interesse por ... </h3>
+                            <h2 class="descricao__titulo-produto">Combo Casal</h2>
+                            <h1 class="descricao__texto"> Promoção por tempo indeterminado ou até esgotar o estoque! Válida somente para dois capacetes de modelos iguais, podendo somente escolher cores diferentes. </h1>
+                        </div>
                         
                         <img src="./img/Promoção.png" alt="Foto da promoção" class="descricao__imagem">
-                    </div>
 
+                    </div>
 
 
                     <div class="card__botoes">
@@ -203,7 +202,6 @@
                             </li>
 
                             <li class="botoes__item">
-
                                 <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
                             </li>
 
@@ -214,48 +212,43 @@
                 </div>
             </div>
 
-    </section>
+        </section>
 
-    <section class="estudante">
-        <div class="estudante-div">
+        <section class="estudante">
             <h2 class="estudante-titulo">Quem sou</h2>
-            <img src="img/emily.jpeg" alt="foto da Emily" class="estudante-imagem">
-            <h3 class="estudante-nome"> Emily Grochoski </h3>
-            <a href="https://github.com/emilygrochoski/segundo-repositorio.git"> <img src="img/github.png"
-                    alt="icone do github" class="estudante-icone"> </a>
-            <a href="https://instagram.com/emily_grochoski"> <img src="img/instagram.png" alt="icone do instagram"
-                    class="estudante-icone"> </a>
-            <a href="https://wa.me/5541996812962?text=Sou+a+Emily.+Como+posso+te+ajudar%3F"> <img src="img/whatsapp.png"
-                    alt="icone do whatsapp" class="estudante-icone"> </a>
-        </div>
-    </section>
+            <div class="estudante-div">
+                <img src="img/emily.jpeg" alt="foto da Emily" class="estudante-imagem">
+                <h3 class="estudante-nome"> Emily Grochoski </h3>
+                <a href="https://github.com/emilygrochoski/segundo-repositorio.git"> <img src="img/github.png" alt="icone do github" class="estudante-icone"> </a>
+                <a href="https://instagram.com/emily_grochoski"> <img src="img/instagram.png" alt="icone do instagram" class="estudante-icone"> </a>
+                <a href="https://wa.me/5541996812962?text=Sou+a+Emily.+Como+posso+te+ajudar%3F"> <img src="img/whatsapp.png" alt="icone do whatsapp" class="estudante-icone"> </a>
+            </div>
+        </section>
+    </main>
 
     <footer class="rodape">
         <img src="img/logoempresa.png" alt="logo da empresa" class="rodape-imagem">
     </footer>
 
+    <script src="favorito.js"></script>
+    <script src="app.js"></script>
+    <script src="missaoVisaoValores.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper (".swiper", {
-            direction: "vertical";
-            loop: true;
-
+        var swiper = new Swiper (".swiper", {
             pagination: {
                 el: ".swiper-pagination",
+                type: "fraction",
             },
-
             navigation: {
                 nexteEl: ".swiper-button-next",
+                prevEl: ".swiper-button-next",
             },
 
-            scrollbar: {
-                el: ".swiper-scrollbar"
-            }
         });
     </script>
 
-    <script src="app.js" ></script>
-    <script src="missaoVisaoValores.js"></script>
 
 </body>
 
